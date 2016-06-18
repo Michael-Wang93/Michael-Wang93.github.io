@@ -1,0 +1,74 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.5" charset="utf-8"/>
+<title></title>
+<link href="../../../css/main.css" rel="stylesheet" type="text/css" />
+<link href="../../../css/common.css" rel="stylesheet" type="text/css" />
+<link href="../../../css/common/common.css" rel="stylesheet" type="text/css" />
+<script src="../../../js/common/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="../../../js/common/jquery.jmpopups-0.5.1.js" type="text/javascript"></script>
+<script src="../../../js/common/iscroll.js" type="text/javascript"></script>
+<script src="../../../js/common/common.js" type="text/javascript"></script>
+<script src="../../../js/common/jquery.alerts.js" type="text/javascript"></script>
+<script type="text/javascript" src="staff.js"></script>
+<script type="text/javascript" src="tpcg.js"></script>
+</head>
+
+<body>
+<!--头部 start-->
+
+
+<div class="top_tit">
+	
+	<span class="top_tit_left" onclick="javascript:window.location.href='sys.html'"></span>
+    <span class="top_tit_home" onclick="javascript:window.open('../../index.html','_self')"></span>
+	<span class="top_tit_center">海燕奖</span>
+
+</div>
+
+
+
+<!--头部 end-->
+
+<!--切换块 end-->
+
+<div class="map_turn">
+	<p class="map_turn_o2 set_bord_blue one">
+    	<span class="map_turn_i map_font_blue">我支持的小组</span>
+    </p>
+	<p class="map_turn_o2 two">
+    	<span class="map_turn_i border_none">人气选手</span>
+    </p>
+    <div class="clear"></div>
+</div>
+
+<!--切换块 end-->
+
+<!--海燕奖 start-->
+<div class="sys03" id="success" style="display: none;">
+	<p class="sys_xin02" id="successMsg"></p>
+    <span class="sys_font">恭喜您已经投票成功<br>希望您能中大奖哦！</span>
+    <div class="height1"></div>
+</div>
+
+<div class="sys03" id="error" style="display: none;">
+	<p class="sys_xin03"></p>
+    <span class="sys_font" id="errorMsg2"></span>
+    <div class="height1"></div>
+</div>
+
+<div class="sys02" id="confirm" style="display: none;">
+	<input type="hidden" id="groupCode" name="groupCode"/>
+	<p class="sys_xin" id="confirmMsg1"></p>
+    <span class="sys_font" >您支持的是<span class="fcr" id="confirmMsg2"></span><br>希望他们能给您带来好运！<br>是否确认投票？</span>
+    <div class="height1"></div>
+    <div class="sys_b">
+    	<span class="sys_but01" id="confirmBut" onclick="confirmBut();">确认</span>
+        <span class="sys_but02" id="thinkBut" onclick="thinkBut();">再想想</span>
+    </div>
+</div>
+<!--海燕奖 end-->
+</body>
+</html>
