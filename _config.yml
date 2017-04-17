@@ -20,7 +20,6 @@ github_username:  michael-wang93
 # Build settings
 markdown: kramdown
 relative_permalinks: false
-permalink: ''
 
 # Posts settings
 future: true
