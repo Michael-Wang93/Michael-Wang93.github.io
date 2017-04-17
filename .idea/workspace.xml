@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f6f88af-f62e-4a14-b5c9-0c69695e519d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-04-18js函数的隐式转化的总结.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2017-04-17-js函数的隐式转换.md" afterPath="$PROJECT_DIR$/_posts/2017-04-17-js函数的柯里化.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3f6f88af-f62e-4a14-b5c9-0c69695e519d" name="Default" comment="" />
     <ignored path="Michael-Wang93.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -68,8 +64,8 @@
       <file leaf-file-name="2017-04-18js函数的隐式转化的总结.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-04-18js函数的隐式转化的总结.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="615">
+              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -925,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-04-18js函数的隐式转化的总结.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="615">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
           <folding />
         </state>
       </provider>
